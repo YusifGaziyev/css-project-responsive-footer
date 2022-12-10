@@ -1,0 +1,268 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    height: 4.7rem;
+    background-color: #262626;
+}
+
+.title .title_logo {
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    width: 25%;
+    height: 4.7rem;
+}
+
+.title_logo .logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    color: #47B5FF;
+}
+
+.title .title_menu {
+    display: flex;
+    width: 75%;
+    height: 4.7rem;
+}
+
+.title_menu .title_items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    height: 4.7rem;
+}
+
+.title_items .title_item {
+    padding: 0 1rem;
+}
+
+.title_items .item_4 {
+    padding-right: 2.5rem;
+}
+
+.title_item .title_link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.title_item .title_link:hover {
+    color: #ffeead;
+    transition-duration: .4s;
+}
+
+.title_items .responsive {
+    display: none;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 32rem;
+    background-color: #f2f2f2;
+}
+
+.article .article_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+}
+
+.article_title h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    color: #262626;
+}
+
+.article .article_text {
+    width: 100%;
+    height: 26rem;
+}
+
+.article_text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #262626;
+    line-height: 1.5rem;
+    padding: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25rem;
+    background-color: #262626;
+}
+
+.footer .footer_top {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 22rem;
+    border-bottom: 1px solid #fff;
+}
+
+.footer_top .col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 22rem;
+}
+
+.col .col_title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 20%;
+}
+
+.col_title h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.col .col_article {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.col_article .col_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.col_item .col_link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.col_item .col_link:hover {
+    text-decoration: underline;
+}
+
+.col .col_address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+}
+
+.col_address .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.address span {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.address span i {
+    font-size: 1rem;
+}
+
+.col_address .address_4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    align-self: center;
+}
+
+.address_4 .social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.address_4 .facebook_link {
+    background-color: #3B5998;
+}
+
+.address_4 .facebook_link:hover {
+    color: #3B5998;
+}
+
+.address_4 .twitter_link {
+    background-color: #55ACEE;
+}
+
+.address_4 .twitter_link:hover {
+    color: #55ACEE;
+}
+
+.address_4 .instagram_link {
+    background-color: #3F729B;
+}
+
+.address_4 .instagram_link:hover {
+    color: #3F729B;
+}
+
+.address_4 .youtube_link {
+    background-color: #cc0000;
+}
+
+.address_4 .youtube_link:hover {
+    color: #cc0000;
+}
+
+.address_4 .social_media:hover {
+    background-color: #fff;
+    transition-duration: .4s;
+}
+
+.social_media i {
+    font-size: 1.5rem;
+}
+
+.footer .footer_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+
+.footer_bottom span {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
